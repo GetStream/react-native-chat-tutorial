@@ -65,6 +65,7 @@ export default function App() {
   useEffect(() => {
     const initChat = async () => {
       await connectUserPromise;
+      await channel.watch();
       setReady(true);
     };
 
