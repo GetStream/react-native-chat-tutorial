@@ -92,7 +92,7 @@ const ChannelListScreen = ({navigation}) => {
 };
 
 const ChannelScreen = ({navigation}) => {
-  const {channel, setThread, thread} = useContext(AppContext);
+  const {channel} = useContext(AppContext);
   const headerHeight = useHeaderHeight();
   const {setTopInset} = useAttachmentPickerContext();
 
@@ -104,10 +104,7 @@ const ChannelScreen = ({navigation}) => {
   return (
     <SafeAreaView>
       <Chat client={chatClient}>
-        <Channel
-          channel={channel}
-          keyboardVerticalOffset={headerHeight}
-          thread={thread}>
+        <Channel channel={channel} keyboardVerticalOffset={headerHeight}>
           <View style={StyleSheet.absoluteFill}>
             <MessageList />
             <MessageInput />

@@ -6939,13 +6939,32 @@ stream-buffers@~2.2.0:
   resolved "https://registry.yarnpkg.com/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
   integrity sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ=
 
-"stream-chat-react-native-core@link:../stream-chat-react-native":
-  version "0.0.0"
-  uid ""
+stream-chat-react-native-core@v3.0.0-alfa.0:
+  version "3.0.0-alfa.0"
+  resolved "https://registry.yarnpkg.com/stream-chat-react-native-core/-/stream-chat-react-native-core-3.0.0-alfa.0.tgz#256f06591529b773e1906388f700c807dd1166cf"
+  integrity sha512-AVHSkrCyIc6cYIbJzGlKuWeBgbGnhKWIzeD2omXuQliRQ+71DFyXNh72NBEPzZLu3rWYdIqbjMH3p4oeZZdHHQ==
+  dependencies:
+    "@babel/runtime" "7.12.13"
+    "@gorhom/bottom-sheet" "3.0.0-alpha.0"
+    anchorme "^1.1.2"
+    dayjs "1.10.4"
+    file-loader "6.2.0"
+    i18next "19.8.7"
+    lodash-es "4.17.20"
+    metro-react-native-babel-preset "0.65.0"
+    mime-types "2.1.28"
+    path "0.12.7"
+    react-art "^16.8.6"
+    react-native-markdown-package "1.8.1"
+    stream-chat "3.0.0"
 
-"stream-chat-react-native@link:../stream-chat-react-native/native-package":
-  version "0.0.0"
-  uid ""
+stream-chat-react-native@3.0.0-alfa.0:
+  version "3.0.0-alfa.0"
+  resolved "https://registry.yarnpkg.com/stream-chat-react-native/-/stream-chat-react-native-3.0.0-alfa.0.tgz#1bd0ee44fcaaec5bae0e6ae8bbc16f8df26aee4f"
+  integrity sha512-CpuUCXgBHO5AXttZP47RYfwN89sEaEJNeA39lOB7KFwa1J5z/oN3RwlgGtUlxWyAvQlSFZxwIXP3WqmdvOnUbQ==
+  dependencies:
+    es6-symbol "^3.1.3"
+    stream-chat-react-native-core v3.0.0-alfa.0
 
 stream-chat@3.0.0:
   version "3.0.0"
