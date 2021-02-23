@@ -308,7 +308,7 @@ PODS:
     - React-jsi (= 0.63.4)
   - RNFS (2.16.6):
     - React
-  - RNGestureHandler (1.10.1):
+  - RNGestureHandler (1.10.2):
     - React-Core
   - RNImageCropPicker (0.36.0):
     - React-Core
@@ -352,7 +352,7 @@ PODS:
     - Yoga
   - RNScreens (2.17.1):
     - React-Core
-  - RNShare (5.1.1):
+  - RNShare (5.1.3):
     - React-Core
   - RNSVG (12.1.0):
     - React
@@ -566,12 +566,12 @@ SPEC CHECKSUMS:
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   RNFS: 2bd9eb49dc82fa9676382f0585b992c424cd59df
-  RNGestureHandler: 5e58135436aacc1c5d29b75547d3d2b9430d052c
+  RNGestureHandler: e66feb0fda7da74ea6a3094656b3c1efe05f5c07
   RNImageCropPicker: e641bf83ac47324994cac139bde74635ec52c17c
   RNReactNativeHapticFeedback: 653a8c126a0f5e88ce15ffe280b3ff37e1fbb285
   RNReanimated: b9c929bfff7dedc9c89ab1875f1c6151023358d9
   RNScreens: b6c9607e6fe47c1b6e2f1910d2acd46dd7ecea3a
-  RNShare: 6779fdd48e6246a8c79276a5b5e74a0f0d61a1ec
+  RNShare: d98667ee0277d9cd068041e5f316a5fe67aa8536
   RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
