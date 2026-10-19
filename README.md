@@ -1,3 +1,5 @@
+> **This repository is archived and will be deleted.** It is no longer maintained. For a current alternative, see [the React Native chat tutorial](https://getstream.io/chat/sdk/react-native/tutorial/cli/).
+
 # react-native-chat-tutorial
 
 This is a basic react-native app, with all the setup necessary to use [stream-chat-react-native](https://github.com/GetStream/stream-chat-react-native) SDK - v4
